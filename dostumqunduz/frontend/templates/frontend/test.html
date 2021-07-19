@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    {% csrf_token %}
+    <div id="output"></div>
+  </body>
+  <script>
+    const csrftoken = document.querySelector('[name=csrfmiddlewaretoken]').value;
+    const cdata = { "post":1 };
+    
+    fetch('http://127.0.0.1:8000/api/unlike/1/', {
+      method: 'DELETE',
+      mode: 'same-origin',
+      credentials: 'include',
+      headers: {
+      'Content-Type': 'application/json',
+        'X-CSRFToken': csrftoken
+      },
+
+
+    }).then((response) => console.log(response))
+  </script>
+</html>

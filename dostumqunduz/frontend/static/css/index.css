@@ -1,0 +1,240 @@
+ul {
+    list-style-type: none;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+.homeContainer{
+display: flex;
+}
+.leftBar{
+    
+flex-grow: 1;
+flex-basis: 220px;
+width: 200px;
+height: calc(100vh - 50px);
+overflow-y: scroll;
+position: sticky;
+top:50px;
+min-width: 220px;
+
+}
+.container{
+    width: 200px;
+    padding: 20px;
+}
+.middleBar{
+flex-grow: 8;
+}
+.rightBar{
+flex-grow: 4;
+}
+.left{
+    width:200px;
+}
+.picture{
+    width:200px;
+}
+.picframe{
+    width:200px;
+    height:200px;
+    overflow:hidden;
+    border-radius: 50%;
+}
+.navbar{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+ul.menuList {
+    display: flex;
+    flex-direction: column;
+}
+li.listItem {
+    display: flex;
+    align-items: center;
+}
+.menuWrapper {
+    display: flex;
+}
+
+.containerLeft {
+    display: flex;
+    justify-content: space-around;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.brandname{
+    flex-grow: 3;
+}
+.searchbar{
+    flex-grow: 5;
+}
+.profilestuff{
+    flex-grow: 4;
+}
+input{
+    width:80%
+}
+.postProf{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    padding-bottom: 8px;
+    padding-top: 20px;
+}
+.profImg{
+    width: 40px;
+    height: 40px;
+}
+.postProfPic{
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.postProfName{
+    padding-left: 10px;
+}
+.postProfLN{
+    padding-left: 5px;
+}
+.postBody{
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+}
+.kommentYaz{
+    display: flex;
+    align-items: center;
+    width: 400px;
+}
+.profDiv{
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.kommentler{
+    margin-left: 10px;
+}
+.singleComment{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    justify-content: space-between;
+    width: 400px;
+}
+.commentProf{
+    
+}
+.commentProfDiv{
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.divName{
+
+}
+.divLN{
+    margin-left: 5px;
+
+}
+.profNameLN{
+    display: flex;
+    font-weight: bold;
+}
+.liker {
+    display: flex;
+    position: relative;
+    align-items: center;
+
+}
+.likeicon {
+    position: relative;
+}
+.likecount {
+    font-weight: bold;
+}
+.like_siyahi{
+    display: none;
+}
+.writeComment{
+    display: block;
+    width: 100%;
+    height: 20px;
+    background: #fff;
+    font-size: 10pt;
+    text-transform: capitalize;
+    padding-left: 20px;
+    color: black;
+  }
+  .singleCommentLeft{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .singleCommentleft {
+    display: flex;
+    align-items: center;
+}
+.CommentForm{
+    width: 79%;
+}
+.searchProf {
+    display: flex;
+    align-items: center;
+}
+.FrReqBar{
+    display: flex;
+}
+.w400{
+    width:400px
+}
+.frReqInf{
+    display: flex;
+}
+.rightBar{
+    margin-right: 200px;
+}
+.postProfPic{
+    margin-right: 20px;
+}
+.frReqInf button{
+    margin-left: 20px;
+}
