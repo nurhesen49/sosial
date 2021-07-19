@@ -44,7 +44,7 @@ render(){
                             <div className="postProfPic"><img className="profImg" src={friend.info[0].picture} /></div>
                             <div className="frReqInf">
                             <div>{friend.info[0].name} {friend.info[0].last_name}</div>
-                            <button onClick={()=>this.AcceptFriend(friend.current)}>Accept request</button>
+                            <button onClick={()=>this.AcceptFriend(friend.current)}>Dostluğu qəbul et</button>
                             </div>
                         </div>)
                     })
